@@ -1,8 +1,6 @@
 Dominate
 ========
 
-Functional HTML string creation.
-
 ```javascript
 let { div, input, button } = require('dominate');
 
@@ -16,13 +14,6 @@ $('body').html(
 );
 ```
 
-|| ||
-|| ||
-|| ||
-\   /
- \ /
-
-
 ```html
 <body>
     <div class="hello">
@@ -31,9 +22,6 @@ $('body').html(
     </div>
 </body>
 ```
-
-
-There are three ways to call the methods:
 
 ```javascript
 tag ( attributes, child1, child2, ...childN )
